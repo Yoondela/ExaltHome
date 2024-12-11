@@ -1,0 +1,131 @@
+
+// SCSS styles for Homecontent component
+
+.service {
+    display: flex;
+    padding: 40px;
+    background-color: #f9f9f9; // Light background for contrast
+    justify-content: center;
+    align-items: center;
+
+    .in-the-service {
+        display: flex;
+        flex-wrap: wrap; // Ensures responsiveness
+        justify-content: space-around;
+        // gap: 20px; // Adds spacing between sections
+        width: 80%;
+
+        .house-sec {
+            flex: 1 1 calc(33.333% - 20px); // Three equal columns with a gap
+            background-color: #fff;
+            max-width: 14rem;
+            height: 256px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .image {
+                width: 100%;
+                height: 200px; // Fixed height for images
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover; // Ensures images fill the container without distortion
+                    transition: transform 0.3s ease;
+
+                    &:hover {
+                        transform: scale(1.05); // Slight zoom on hover
+                    }
+                }
+            }
+
+            .sec {
+                padding: 10px;
+                text-align: center;
+
+                h4 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #58a4b0; // Theme color for titles
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        @media #{$xlm-device} {
+            padding-right: 0px;
+        }
+        @media #{$xxl-device} {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        @media #{$lg-device} {
+            .in-the-service {
+                display: flex;
+                flex-direction: column; // Stack .house-sec items vertically
+                align-items: center; // Center items horizontally
+                justify-content: center; // Center items vertically
+                gap: 20px; // Space between items
+                width: 100%; // Full width
+                max-width: 600px; // Optional: Limit max width for better layout
+        
+                .house-sec {
+                    display: flex;
+                    flex-direction: column; // Stack child elements vertically
+                    align-items: center; // Center content horizontally
+                    justify-content: center; // Center content vertically
+                    background-color: #fff;
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    padding: 20px;
+                    width: 100%; // Full width
+                    max-width: 400px; // Optional: Limit the width
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        
+                    .image {
+                        width: 100%;
+                        height: 200px;
+                        overflow: hidden;
+        
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+        
+                    .sec {
+                        margin-top: 10px;
+        
+                        h4 {
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: #58a4b0;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+        @media #{$xs-device} {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    h6 {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 16px;
+        color: #555;
+        font-style: italic;
+    }
+}

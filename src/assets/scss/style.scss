@@ -1,0 +1,47 @@
+// Table of contents
+@import "tableofcontent";
+
+// imported styles
+@import "common/imported";
+
+// Base
+@import "common/variables";
+@import "common/mixins";
+@import "common/rfs";
+
+// Typography
+@import "common/typography";
+
+// Common Styles
+@import "exalt/common";
+@import "exalt/navbar";
+
+// Header
+@import "header/header";
+@import "header/search";
+
+// Banner Styles
+@import "exalt/banner";
+
+// Components
+@import "exalt/portfolio";
+@import "exalt/about";
+@import "exalt/team";
+@import "exalt/testimonial";
+@import "exalt/brand-logo";
+@import "exalt/divider";
+@import "exalt/icon-box";
+@import "exalt/form";
+@import "exalt/intro";
+@import "exalt/home-content";
+
+// Blog
+@import "exalt/blog";
+
+// Contact
+@import "exalt/contact";
+
+// Footer
+@import "footer/footer";
+
+

@@ -25,19 +25,14 @@ const AboutService = () => {
                         <h2 className="title">{AboutData[1].title}</h2>
                         <ul>
                             {AboutData[1].pagelinkText &&
-                                AboutData[1].pagelinkText.map((single, key) => {
-                                    return (
-                                        <li key={key}>
-                                            <Link
-                                                to={
-                                                    process.env.PUBLIC_URL + "/"
-                                                }
-                                            >
-                                                {single}
-                                            </Link>
-                                        </li>
-                                    );
-                                })}
+                                AboutData[1].pagelinkText.map((single, key) => (
+                                    <li key={key}>
+                                        <a href={`#item-${key + 1}`}>
+                                            {/* Link to corresponding id */}
+                                            {single}
+                                        </a>
+                                    </li>
+                                ))}
                         </ul>
                     </div>
                 </div>

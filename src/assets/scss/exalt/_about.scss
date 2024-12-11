@@ -28,11 +28,20 @@
     @media #{$sm-device} {
         padding: 55px 0 0;
     }
+
+    .about-service-container {
+        margin-bottom: 80px;
+    }
+    .service-data-item{
+        margin-bottom: 80px;
+    }
     .title {
         margin-bottom: 40px;
         @media #{$lg-device} {
             margin-bottom: 20px;
         }
+    }.service-item-title {
+        font-size:x-large;
     }
     p {
         font-size: 18px;

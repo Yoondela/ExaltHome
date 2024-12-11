@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
+import WorkWeDo from "../containers/about/work-we-do/index.jsx";
 import AboutAward from "../containers/about/about-award";
 import AboutService from "../containers/about/about-service/index.jsx";
 import Blockquote from "../containers/about/blockquote";
@@ -22,9 +23,10 @@ const AboutPage = () => {
                     <div className="main-content">
                         <PageTitleContainer />
                         <AboutService />
-                        <TeamContainer />
+                        <WorkWeDo />
                         <Blockquote />
                         <AboutGallery />
+                        <TeamContainer />
                         {/* <AboutAward /> */}
                         <BrandContainer />
                     </div>

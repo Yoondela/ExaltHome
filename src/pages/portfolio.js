@@ -2,6 +2,7 @@ import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 import QuteContainer from "../containers/global/global-qute/index.jsx";
+import ServicesGallery from "../components/services-gallery/index.jsx";
 import PortfolioContainer from "../containers/global/portfolio/index.jsx";
 import Footer from "../layouts/footer";
 import Header from "../layouts/header/index";
@@ -16,6 +17,7 @@ const Portfolio = () => {
                     <Header classOption="hb-border" />
                     <div className="main-content">
                         <QuteContainer />
+                        {/* <ServicesGallery /> */}
                         <PortfolioContainer />
                     </div>
                     <Footer />

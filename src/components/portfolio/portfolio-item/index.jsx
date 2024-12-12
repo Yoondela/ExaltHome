@@ -1,32 +1,11 @@
 import PropTypes from "prop-types";
-import lightGallery from "lightgallery";
 import { Link } from "react-router-dom";
-
-import React, { Component, useEffect } from "react";
-import { render } from "react-dom";
-// import './style.css';
-import LightGallery from "lightgallery/react";
-// import lgZoom from 'lightgallery/plugins/zoom';
-// import lgVideo from 'lightgallery/plugins/video';
-// import fjGallery from 'flickr-justified-gallery';
 
 const PortfolioItem = ({ portfolio }) => {
     return (
         <div className="single-portfolio">
-            <LightGallery
-                group="any"
-                src={process.env.PUBLIC_URL + portfolio.homeImage}
-            >
-                <div className="thumbnail">
-                    <div className="overlay">
-                        <img
-                            src={process.env.PUBLIC_URL + portfolio.homeImage}
-                            alt="portfolio"
-                        />
-                    </div>
-                </div>
-            </LightGallery>
-            <div className="content">
+            {/* Replace the thumbnail with custom content */}
+            <div className="portfolio-info">
                 <h3 className="title">
                     <Link
                         to={
@@ -38,13 +17,33 @@ const PortfolioItem = ({ portfolio }) => {
                     </Link>
                 </h3>
                 <p className="desc">{portfolio.excerpt}</p>
+                <div className="meta">
+                    <span className="category">
+                        Categories:{""}
+                        {portfolio.categories.join(", ")}
+                    </span>
+                    <span className="date">Date: {portfolio.date}</span>
+                </div>
+            </div>
+
+            {/* Optionally include a call-to-action or link */}
+            <div className="cta">
+                <Link
+                    to={
+                        process.env.PUBLIC_URL +
+                        `/portfolio-details/${portfolio.id}`
+                    }
+                    className="btn-view-details"
+                >
+                    View Details
+                </Link>
             </div>
         </div>
     );
 };
 
 PortfolioItem.propTypes = {
-    portfolio: PropTypes.object,
+    portfolio: PropTypes.object.isRequired,
 };
 
 export default PortfolioItem;

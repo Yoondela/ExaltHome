@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { flatDeep } from "../utils";
 
 const useMasonry = (
-    PortfolioData,
+    ServicesData,
     masonryListWrap,
     masonryGrid,
     btnWrap,
@@ -12,8 +12,8 @@ const useMasonry = (
 ) => {
     const [categories, setCategories] = useState([]);
     useEffect(() => {
-        const mixCategories = PortfolioData.map((item) => {
-            return item.categories.map((cat) => cat);
+        const mixCategories = ServicesData.map((item) => {
+            return item.categoryList.map((cat) => cat);
         });
         const allCat = flatDeep(mixCategories, Infinity);
         const commonCategories = [...new Set(allCat)];
@@ -48,7 +48,7 @@ const useMasonry = (
                 });
             });
         });
-    }, [btn, btnWrap, masonryGrid, masonryListWrap, PortfolioData]);
+    }, [btn, btnWrap, masonryGrid, masonryListWrap, ServicesData]);
     return { categories };
 };
 

@@ -3,6 +3,7 @@ import LightGallery from "lightgallery/react";
 import PortfolioFilter from "../../../components/portfolio/portfolio-filter";
 import PortfolioItem from "../../../components/portfolio/portfolio-item";
 import PortfolioData from "../../../data/portfolio.json";
+import ServicesData from "../../../data/service-categories.json";
 import useMasonry from "../../../hooks/use-masonry";
 import { slugify } from "../../../utils";
 
@@ -10,7 +11,7 @@ const PortfolioContainer = () => {
     // Isotope Categories list JS
 
     const { categories } = useMasonry(
-        PortfolioData,
+        ServicesData,
         ".portfolio-list",
         ".masonry-grid",
         ".messonry-button",

@@ -1,0 +1,12 @@
+.gallery-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+.gallery-item:hover {
+    background-color: #f0f0f0;
+}

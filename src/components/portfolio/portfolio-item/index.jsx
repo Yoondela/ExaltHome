@@ -13,17 +13,17 @@ const PortfolioItem = ({ portfolio }) => {
                             `/portfolio-details/${portfolio.id}`
                         }
                     >
-                        {portfolio.title}
+                        {portfolio.name}
                     </Link>
                 </h3>
-                <p className="desc">{portfolio.excerpt}</p>
-                <div className="meta">
+                <p className="desc">{portfolio.services}</p>
+                {/* <div className="meta">
                     <span className="category">
                         Categories:{""}
                         {portfolio.categories.join(", ")}
                     </span>
                     <span className="date">Date: {portfolio.date}</span>
-                </div>
+                </div> */}
             </div>
 
             {/* Optionally include a call-to-action or link */}
@@ -35,7 +35,7 @@ const PortfolioItem = ({ portfolio }) => {
                     }
                     className="btn-view-details"
                 >
-                    View Details
+                    View Portfolio
                 </Link>
             </div>
         </div>

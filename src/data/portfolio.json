@@ -1,21 +1,22 @@
 [
     {
         "id": 1,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-1.jpg",
-        "title": "Myfriend Mdantsane",
-        "excerpt": "Gardener, yard",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Myfrend Mdantsane",
+        "address": "123 nu1 Mdan",
+        "gender" : "Male",
+        "artisan": "Gardener, yard worker",
         "categories": ["garden", "all"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "dateJoined": "12 September 2023",
+        "services": "Gardening, Yard work",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -28,21 +29,22 @@
     },
     {
         "id": 2,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-2.jpg",
-        "title": "Sphendule Mjali",
-        "excerpt": "Professional car washer",
-        "categories": ["car", "yard"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Spendule Mjali",
+        "address": "123 nu1 Mdan",
+        "gender" : "Male",
+        "artisan": "car washer, yard worker",
+        "categories": ["car", "yard work"],
+        "dateJoined": "12 September 2023",
+        "services": "Car wash, Yard work",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -55,22 +57,22 @@
     },
     {
         "id": 3,
-        "type": "video",
-        "homeImage": "img/portfolio/portfolio-3.jpg",
-        "videoUrl": "https://www.youtube.com/embed/KzhSW1Ztq1w",
-        "title": "Aviwe Makhethe",
-        "excerpt": "House cleaning",
-        "categories": ["house", "garden"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Noluvo Maxoki",
+        "address": "123 nu1 Mdan",
+        "gender" : "Female",
+        "artisan": "Gardener, house-cleaner",
+        "categories": ["house", "garden", "laundry", "baby-sitting"],
+        "dateJoined": "12 September 2023",
+        "services": "Gardening, cleaner",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -83,21 +85,22 @@
     },
     {
         "id": 4,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-4.jpg",
-        "title": "Esethu Nganu",
-        "excerpt": "House cleaning",
-        "categories": ["house", "car"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Esethu Nganu",
+        "address": "123 nu1 Mdan",
+        "gender" : "Female",
+        "artisan": "cleaner, car-washer",
+        "categories": ["house", "car-wash"],
+        "dateJoined": "12 September 2023",
+        "services": "Cleaning, Car-wash",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -110,21 +113,22 @@
     },
     {
         "id": 5,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-5.jpg",
-        "title": "Mayaya Tamayaya",
-        "excerpt": "fashion guy",
-        "categories": ["garden", "house"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Andani Lumko",
+        "address": "123 nu1 Mdan",
+        "gender" : "Male",
+        "artisan": "Gardener, yard worker",
+        "categories": ["garden", "all"],
+        "dateJoined": "12 September 2023",
+        "services": "Gardening, Yard work",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -137,21 +141,22 @@
     },
     {
         "id": 6,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-7.jpg",
-        "title": "Stuard daSilva",
-        "excerpt": "Car wash",
-        "categories": ["car", "yard"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Jason daSilva",
+        "address": "123 nu1 Mdan",
+        "gender" : "Male",
+        "artisan": "car-washer, yard worker",
+        "categories": ["car-wash", "yard-work"],
+        "dateJoined": "12 September 2023",
+        "services": "Car-washing, Yard work",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -164,21 +169,22 @@
     },
     {
         "id": 7,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-8.jpg",
-        "title": "Athi Mafanya",
-        "excerpt": "Mango Fashion Lookbook Campaign",
-        "categories": ["car", "house"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Sino Mtheza",
+        "address": "123 nu1 Mdan",
+        "gender" : "Female",
+        "artisan": "Gardener, cleaner",
+        "categories": ["garden", "house"],
+        "dateJoined": "12 September 2023",
+        "services": "Gardening, cleaning",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -191,21 +197,22 @@
     },
     {
         "id": 8,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-6.jpg",
-        "title": "Spesh Vika",
-        "excerpt": "Gardening",
-        "categories": ["Garden", "nature"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Aphelele Stampu",
+        "address": "123 nu1 Mdan",
+        "gender" : "Female",
+        "artisan": "cleaner, baby-sitter",
+        "categories": ["house", "baby-sitting"],
+        "dateJoined": "12 September 2023",
+        "services": "Cleaning, Baby Sitting",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {
@@ -218,21 +225,22 @@
     },
     {
         "id": 9,
-        "type": "image",
-        "homeImage": "img/portfolio/portfolio-9.jpg",
-        "title": "Andisiwe Meleni",
-        "excerpt": "Mango Fashion Lookbook Campaign",
-        "categories": ["house", "garden"],
-        "client": "Archo Architecture <br />Bureau, SG",
-        "date": "September 25th <br />2020",
-        "team": "Nindia H. - Editor <br />Kate E. - Photographer",
-        "services": "Natural, Studio, Commercial, <br />Portrait",
+        "face": "image",
+        "title": "img/portfolio/portfolio-1.jpg",
+        "name": "Anathi Kota",
+        "address": "123 nu1 Mdan",
+        "gender" : "Female",
+        "artisan": "baby-sitter, cleaner",
+        "categories": ["baby-sitting", "house"],
+        "dateJoined": "12 September 2023",
+        "services": "Baby-sitting, cleaning",
+        "callOutsPerMonth" : "7",
         "body": [
-            "<p>Updated portraits of all Instrument employees for the new Instrument site. A unified look and background allows photos to mesh seamlessly online. To see it live check out:</p>",
+            "<p>this is a list of paragraphs for content written by the worker/company involved</p>",
             ""
         ],
         "pageUrl": {
-            "text": "https://yourwebsite.com",
+            "text": "https://their-url.com",
             "link": "/"
         },
         "gallery": {

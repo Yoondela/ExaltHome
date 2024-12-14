@@ -18,51 +18,10 @@ const PortfolioDetailsContainer = ({ data }) => {
                         <div className="inner-content">
                             <div className="content" data-aos="fade-up">
                                 <p className="category">{cate}</p>
-                                <h3 className="title">{data.title}</h3>
+                                <h3 className="title">{data.name}</h3>
                             </div>
                             <div className="portfolio-info">
                                 <div className="row">
-                                    <div
-                                        className="col-sm-6 col-md-3 col-lg-3"
-                                        data-aos="fade-up"
-                                    >
-                                        <div className="info-item">
-                                            <span>Client</span>
-                                            <p
-                                                dangerouslySetInnerHTML={{
-                                                    __html: data.client,
-                                                }}
-                                            />
-                                        </div>
-                                    </div>
-                                    <div
-                                        className="col-sm-6 col-md-3 col-lg-3"
-                                        data-aos="fade-up"
-                                        data-aos-delay="300"
-                                    >
-                                        <div className="info-item">
-                                            <span>Date</span>
-                                            <p
-                                                dangerouslySetInnerHTML={{
-                                                    __html: data.date,
-                                                }}
-                                            />
-                                        </div>
-                                    </div>
-                                    <div
-                                        className="col-sm-6 col-md-3 col-lg-3"
-                                        data-aos="fade-up"
-                                        data-aos-delay="600"
-                                    >
-                                        <div className="info-item">
-                                            <span>Team</span>
-                                            <p
-                                                dangerouslySetInnerHTML={{
-                                                    __html: data.team,
-                                                }}
-                                            />
-                                        </div>
-                                    </div>
                                     <div
                                         className="col-sm-6 col-md-3 col-lg-3"
                                         data-aos="fade-up"
@@ -73,6 +32,47 @@ const PortfolioDetailsContainer = ({ data }) => {
                                             <p
                                                 dangerouslySetInnerHTML={{
                                                     __html: data.services,
+                                                }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="col-sm-6 col-md-3 col-lg-3"
+                                        data-aos="fade-up"
+                                    >
+                                        <div className="info-item">
+                                            <span>gender</span>
+                                            <p
+                                                dangerouslySetInnerHTML={{
+                                                    __html: data.gender,
+                                                }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="col-sm-6 col-md-3 col-lg-3"
+                                        data-aos="fade-up"
+                                        data-aos-delay="300"
+                                    >
+                                        <div className="info-item">
+                                            <span>Date joined</span>
+                                            <p
+                                                dangerouslySetInnerHTML={{
+                                                    __html: data.dateJoined,
+                                                }}
+                                            />
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="col-sm-6 col-md-3 col-lg-3"
+                                        data-aos="fade-up"
+                                        data-aos-delay="600"
+                                    >
+                                        <div className="info-item">
+                                            <span>call out /mon</span>
+                                            <p
+                                                dangerouslySetInnerHTML={{
+                                                    __html: data.callOutsPerMonth,
                                                 }}
                                             />
                                         </div>
@@ -174,7 +174,6 @@ const PortfolioDetailsContainer = ({ data }) => {
                 <div className="row">
                     <div className="col-lg-12" data-aos="fade-up">
                         <div className="social-icons">
-                            <span>Share:</span>
                             <a
                                 href="https://twitter.com/"
                                 target="_blank"
@@ -214,13 +213,19 @@ const PortfolioDetailsContainer = ({ data }) => {
                             to={process.env.PUBLIC_URL + "/"}
                             className="btn-started"
                         >
-                            Start your project with us now{" "}
-                            <span>Get Started</span>{" "}
+                            <p
+                                dangerouslySetInnerHTML={{
+                                    __html: data.name,
+                                }}
+                            />
+                            is available
+                            <span>Request</span>
+                            {""}
                             <i className="arrow_carrot-right_alt2"></i>
                         </Link>
                     </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div
                         className="col-lg-12"
                         data-aos="fade-up"
@@ -232,17 +237,15 @@ const PortfolioDetailsContainer = ({ data }) => {
                                     <i className="arrow_carrot-left"></i>{" "}
                                     Previous
                                 </Link>
-                                Sample Project
                             </div>
                             <div className="next">
                                 <Link to={process.env.PUBLIC_URL + "/"}>
                                     Next <i className="arrow_carrot-right"></i>
                                 </Link>
-                                Sample Project
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
